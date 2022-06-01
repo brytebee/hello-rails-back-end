@@ -6,4 +6,12 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-Greeting.create([{ title: "Star Wars", message: "We must win" }, { title: "Lord of the Rings", message: "Never walk alone" }])
+Greeting.create(
+  [
+    { title: "French", message: "bon matin" }, 
+    { title: "Spanish", message: "buenos días" },
+    { title: "German", message: "guten Morgen" },
+    { title: "Italian", message: "buongiorno" },
+    { title: "Chinese", message: "zǎoān" }
+  ]
+)
